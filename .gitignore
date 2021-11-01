@@ -1,0 +1,4 @@
+node_modules
+build/photos/*
+build/assets/app.js
+build/assets/settings.js

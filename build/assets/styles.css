@@ -1,0 +1,51 @@
+html,
+body {
+    margin: 0;
+    font-size: 12pt;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans",
+        sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+#app {
+    min-height: calc(100vh - 20px);
+    display: flex;
+    flex-direction: row;
+}
+
+.album-covers {
+    display: flex;
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+.album-cover {
+    flex-grow: 1;
+    min-width: 200px;
+    min-height: 200px;
+    max-width: 200px;
+    max-height: 200px;
+    text-align: center;
+}
+
+.album-cover img {
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    border-radius: 3px;
+    height: 100px;
+}
+
+.row {
+    display: table-row;
+    margin: 5px;
+}
+
+.column {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 5px;
+}
+
+.column img {
+    cursor: pointer;
+}
